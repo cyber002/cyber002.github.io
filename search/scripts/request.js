@@ -2,7 +2,7 @@
 
 // Service definitions with codec requirements
 const services = [
-	{ name: 'Bilibili', icon: 'bilibili', url: 'https://www.bilibili.com/', action: 'open', requiresCodec: true },
+	{ name: 'Bilibili', icon: 'bilibili', url: 'https://www.bilibili.com/', action: 'select', requiresCodec: true },
 	{ name: 'Age动漫', icon: 'age', url: 'https://www.agedm.io/', action: 'select', requiresCodec: true },
 	{ name: 'Omofun动漫', icon: 'omofun', url: 'https://www.acgbibi.com/', action: 'select', requiresCodec: true },
 	{ name: 'YouTube', icon: 'youtube', url: 'https://youtube.com/', action: 'select', requiresCodec: false },
