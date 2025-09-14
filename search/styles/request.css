@@ -113,6 +113,9 @@ body {
 }
 
 /* Service logos */
+.logo-bilibili { background-image: url(../images/logos/bilibili.svg); }
+.logo-age { background-image: url(../images/logos/age.png); }
+.logo-omofun { background-image: url(../images/logos/omofun.jpg); }
 .logo-youtube { background-image: url(../images/logos/youtube.png); }
 .logo-tiktok { background-image: url(../images/logos/tiktok.png); background-size: 75px; }
 .logo-soundcloud { background-image: url(../images/logos/soundcloud.svg); }
@@ -121,7 +124,6 @@ body {
 .logo-rumble { background-image: url(../images/logos/rumble.png); }
 .logo-dlive { background-image: url(../images/logos/dlive.png); }
 .logo-kick { background-image: url(../images/logos/kick.svg); }
-.logo-bilibili { background-image: url(../images/logos/bilibili.svg); }
 .logo-archive { background-image: url(../images/logos/archive.png); }
 .logo-vk { background-image: url(../images/logos/vk.png); background-size: 50px; }
 .logo-sibnet { background-image: url(../images/logos/sibnet.png); }
