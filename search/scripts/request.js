@@ -2,6 +2,9 @@
 
 // Service definitions with codec requirements
 const services = [
+	{ name: 'Bilibili', icon: 'bilibili', url: 'https://www.bilibili.com/', action: 'open', requiresCodec: true },
+	{ name: 'Age动漫', icon: 'age', url: 'https://www.agedm.io/', action: 'open', requiresCodec: true },
+	{ name: 'Omofun动漫', icon: 'omofun', url: 'https://www.acgbibi.com/', action: 'open', requiresCodec: true },
 	{ name: 'YouTube', icon: 'youtube', url: 'https://youtube.com/', action: 'select', requiresCodec: false },
 	{ name: 'TikTok', icon: 'tiktok', url: 'https://tiktok.com/', action: 'select', requiresCodec: true },
 	{ name: 'SoundCloud', icon: 'soundcloud', url: 'https://soundcloud.com/discover', action: 'select', requiresCodec: false },
@@ -10,7 +13,6 @@ const services = [
 	{ name: 'Rumble', icon: 'rumble', url: 'https://rumble.com/', action: 'select', requiresCodec: true },
 	{ name: 'DLive', icon: 'dlive', url: 'https://dlive.tv/', action: 'select', requiresCodec: true },
 	{ name: 'Kick', icon: 'kick', url: 'https://kick.com/', action: 'select', requiresCodec: true },
-	{ name: 'Bilibili', icon: 'bilibili', url: 'https://www.bilibili.tv/', action: 'open', requiresCodec: true },
 	{ name: 'Archive', icon: 'archive', url: 'https://archive.org/details/movies', action: 'select', requiresCodec: true },
 	{ name: 'VKontakte', icon: 'vk', url: 'https://vk.com/video', action: 'select', requiresCodec: true },
 	{ name: 'Sibnet', icon: 'sibnet', url: 'https://video.sibnet.ru/rub/anime/', action: 'select', requiresCodec: true },
