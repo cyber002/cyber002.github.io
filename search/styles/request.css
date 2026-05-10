@@ -59,19 +59,27 @@ body {
 
 .service-card {
 	position: relative;
-	aspect-ratio: 1;
+	padding-bottom: 100%; /* Simulates aspect-ratio: 1 for Chrome < 88 */
 	background: var(--bg-card);
 	border: 1px solid var(--border-color);
 	border-radius: var(--border-radius);
 	cursor: pointer;
 	transition: var(--transition);
+	overflow: hidden;
+}
+
+.service-card-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
 	color: var(--text-primary);
-	overflow: hidden;
 }
 
 .service-card::before {
@@ -117,8 +125,9 @@ body {
 .logo-age { background-image: url(../images/logos/age.png); }
 .logo-omofun { background-image: url(../images/logos/omofun.jpg); }
 .logo-cnflix { background-image: url(../images/logos/cnflix.png); }
+.logo-liangzi { background-image: url(../images/logos/liangzi.png); }
 .logo-youtube { background-image: url(../images/logos/youtube.png); }
-.logo-tiktok { background-image: url(../images/logos/tiktok.png); background-size: 75px; }
+.logo-tiktok { background-image: url(../images/logos/tiktok.svg); }
 .logo-soundcloud { background-image: url(../images/logos/soundcloud.svg); }
 .logo-dailymotion { background-image: url(../images/logos/dailymotion.png); background-size: 55px; }
 .logo-twitch { background-image: url(../images/logos/twitch.png); }
@@ -126,10 +135,9 @@ body {
 .logo-dlive { background-image: url(../images/logos/dlive.png); }
 .logo-kick { background-image: url(../images/logos/kick.svg); }
 .logo-archive { background-image: url(../images/logos/archive.png); }
-.logo-vk { background-image: url(../images/logos/vk.png); background-size: 50px; }
-.logo-sibnet { background-image: url(../images/logos/sibnet.png); }
+.logo-vk { background-image: url(../images/logos/vkvideo.svg); background-size: 40px; }
 .logo-ok { background-image: url(../images/logos/okru.png); }
-.logo-rutube { background-image: url(../images/logos/rutube.jpg); background-size: 50px; }
+
 
 /* Disabled service styles */
 .service-card.service-disabled {
